@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Castoro:ital@0;1&display=swap');
+*, *::before, *::after {
+    box-sizing: border-box;
+    /*ouline可用來除錯*/
+    /* outline: greenyellow solid 1px; */
+}
+
+body{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Bruno Ace SC', serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.ds-flex{
+    display: flex;
+}
+
+.navlist{
+    justify-content: space-around;/*均勻分布*/
+    align-items:center;/*置中*/
+    margin: 40px 0;/*推擠高度*/
+}
+
+
+
+.imgblock{
+    display: block;/*移除圖片下方空隙*/
+}
+
+.neme{
+    font-size: 128px;
+    color: #00FFA3;
+    display: block;
+    text-align: right;
+}
+
+.fs-6{
+    font-size: 24px;
+}
+
+.mg-r-6{
+    margin-right: 24px;
+}
+
+.pd-40-0{
+    padding: 160px 0;
+}
+
+.mg-r-4{
+    margin-right: 16px;
+}
+
+.conbtn{
+    display: block;
+    text-align: center;
+    background-color: #FFFFFF;
+    width: 185px;
+    border-radius: 32px;
+    margin-left: auto;
+}
+
+.con{
+    text-decoration:none;
+    color: #000000;
+    padding: 12px 24px 12px 24px;
+    display: block;
+}
+
+.outward{
+    vertical-align: middle;
+}
+
+.imgback{
+    background-image: url("img/background-img.png");
+}
+
+.intro-title{
+    margin-bottom: 36px;
+}
+
+.intro-p{
+    margin-bottom: 32px;
+}
+
+.container{
+    width: 1296px;/*設計稿的Layout Grid:12(紅色區塊)*86+11(空白縫隙)*24=1296px*/
+	margin: 0 auto;/*置中*/
+}
+
+
+.contactheader{
+    padding: 72px 0 32px 0;
+    
+}
+.aboutlist{
+    border: #E3E3E3 solid 1px;
+    padding: 16px 16px;
+}
+.whiteback{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+h3{
+    font-size: 20px;
+}
+
+.aboutcard{
+    width: 306px;
+}
+
+.aboutbottom{
+    margin-bottom: 24px;
+}
+
+h2{
+    font-size: 64px;
+}
+
+h1{
+    font-size: 64px;
+}
+
+.aboutwidth{
+    width: 526px;
+}
+.abouttitle{
+    margin-bottom: 36px;
+}
+
+.margin-right{
+    margin-left: auto;
+}
+
+.margin-left{
+    margin-right: auto;
+}
+
+.verticalcenter{
+    margin: auto 0;
+}
+
+.rightarrow{
+    width: 100px;
+    height: 100px;
+}
+.con-margin{
+    margin: 129px 0;
+}
+
+.appimg{
+    
+    margin: auto 0;
+    margin-left: auto; 
+}
+
+.appsize{
+    width: 162px;
+    height: 162px;
+}
+
+.appmargin{
+    margin-right: 20px;
+}
+
+.protitle{
+    margin: 0 0 16px 550px;/*上右下左*/
+}
+
+.promargin{
+    margin-bottom: 28px;
+}
+
+.protext{
+    margin-bottom: 76px;
+}
+
+.seemorebtn{
+    display: block;
+    text-align: center;
+    background-color: #000000;
+    width: 185px;
+    border-radius: 32px;
+    margin-right: auto;
+}
+
+.seemore{
+    text-decoration:none;
+    color: #FFFFFF;
+    padding: 12px 24px 12px 24px;
+    display: block;
+}
+
+.footertext{
+    margin: 40px 0;
+    text-align: center;
+}
